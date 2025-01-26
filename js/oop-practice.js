@@ -43,6 +43,7 @@ myAnimal.SayIt()
 */
 
 // STEP 5
+/*
 class Animal {
     constructor(type, breed, color, height, length) {
       this.type = type
@@ -63,8 +64,25 @@ class Animal {
   }
 const myAnimal = new Animal ("Reptile","Corn Snake", "Red", "1 inch", "3 feet")
 myAnimal.displayProps()
+*/
 
 // STEP 6
+/*
+class Animal {
+    constructor(type, breed, color, height, length) {
+      this.type = type
+      this.breed = breed
+      this.color = color
+      this.height= height
+      this.length = length 
+    }
+  }
+const myAnimal = new Animal ("Reptile","Corn Snake", "Red", "1 inch", "3 feet")
+console.log("Animal properties: ")
+for (const detail in myAnimal) {
+    console.log(`${detail}: ${myAnimal[detail]}`)
+}
+*/ 
 
 // STEP 7
 
