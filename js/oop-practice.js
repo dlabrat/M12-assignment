@@ -85,6 +85,31 @@ for (const detail in myAnimal) {
 */ 
 
 // STEP 7
+/*
+class Animal {
+    constructor(type, breed, color, height, length) {
+        this.type = type   
+        this.breed = breed    
+        this.color = color 
+        this.height = height 
+        this.length = length 
+    }
+    speak() {
+        if (this.type.toLowerCase() === "dog") {
+            return `The ${this.color} dog is barking.`;
+        } else if (this.type.toLowerCase() === "cat") {
+            return `The ${this.color} cat is meowing.`;
+        } 
+        else {
+            //nothing happens 
+        }
+    }
+}
+const myDog = new Animal("Dog", "Labrador", "Golden", 60, 120)
+const myCat = new Animal("Cat", "Siamese", "White", 30, 50)
+console.log(myDog.speak()) 
+console.log(myCat.speak()) 
+*/
 
 // STEP 8
 
